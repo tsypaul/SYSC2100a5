@@ -1,0 +1,36 @@
+package part1;
+
+public class HashTable<K, V> {
+	private int size = 0;
+	private int tableSize;
+	private ChainNode[] table;
+	
+	public HashTable(int tableSize){
+		table = new ChainNode[tableSize];
+		this.tableSize = tableSize;
+	}
+	
+	public boolean tableIsEmpty(){
+		return size == 0;
+	}
+	
+	public int tableSize(){
+		return tableSize;
+	}
+	
+	public void tableInsert(){
+		
+	}
+	
+	public boolean tableDelete(){
+		return true;
+	}
+	
+	public V tableRetrieve(K key){
+		return null;
+	}
+	
+	public int hashIndex(K key){
+		return 1;
+	}
+}

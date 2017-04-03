@@ -1,0 +1,21 @@
+package part1;
+
+public class ChainNode<K, V> {
+	private K key;
+	private V value;
+	ChainNode<K, V> next;
+	
+	public ChainNode(K key, V value, ChainNode<K, V> nextNode){
+		this.key = key;
+		this.value = value;
+		next = nextNode;
+	}
+	
+	public V getValue(){
+		return value;
+	}
+	
+	public K getKey(){
+		return key;
+	}
+}

@@ -1,0 +1,22 @@
+package part1;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args){
+		System.out.println("Select a function you want to do:");
+		System.out.println("1. check element in the table.");
+		System.out.println("2. insert a element in the table.");
+		Scanner s = new Scanner(System.in);
+		int number = s.nextInt();
+		HashTable t = new HashTable();
+		
+		if(number == 1){
+			System.out.println("Please enter a symbol you want to check in the table: ");
+			Scanner s1 = new Scanner(System.in);
+			String symbol = s1.nextLine();
+			
+		}
+		
+	}
+}
